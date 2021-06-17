@@ -1,0 +1,130 @@
+.section1{
+    width: 800px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 70px 0px 70px 0px;
+    background-color: #424242;
+    margin:0px auto;
+}
+.textarea{
+    color: #FFD366;
+    font-size: 15px;
+    font-family: '微軟正黑體';
+}
+.textarea p{
+    padding-bottom: 5px;
+}
+.input-cm, .input-kg{
+    width: 250px;
+    height: 30px;
+    background: rgba(255,255,255,0.18);
+    border: 2px solid #FFD366;
+    border-radius: 10px;
+    margin-bottom: 23px;
+
+}
+.result{
+    height: 80px;
+    width: 80px;
+    border-radius: 999rem;
+    border: 7px solid #FFD366;
+    background-color: #FFD366;
+    text-align: center;
+    line-height: 80px;
+    font-family: 'PingFangTC-Regular';
+    color: #424242;
+}
+.result a{
+    text-decoration: none;
+    color: black;
+}
+.result:hover{
+    box-shadow: 0 1px 6px 3px rgba(255,195,49,0.64);
+}
+.result:active{
+    background: #DEA921;
+    border: 7px solid #DEA921;
+}
+.section2{
+    width: 800px;
+    background-color: rgba(231, 231, 231, 0.5);
+    margin:0px auto;
+    text-align: center;
+}
+.list{
+    display: inline-block;
+}
+.section2 h2{
+    font-size: 24px;
+    padding: 30px 0px;
+}
+.section2 h2, .section2 p{
+    text-align: center;
+}
+.history-list{
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 64px;
+    margin-bottom: 16px;
+    background-color: white;
+}
+.history-list span{
+    font-size: 12px;
+}
+.result-hide{
+    display: flex;
+    justify-content: flex-start;
+}
+.result-hide-style{
+    height: 80px;
+    width: 80px;
+    border-radius: 999rem;
+    background-color: #424242;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'PingFangTC-Regular';
+    font-size: 23px;
+    position: relative;
+}
+
+.hide-status{
+    display: flex;
+    align-items: center;
+    padding-left: 18px;
+    font-size: 23px;
+}
+
+.hide-content{
+    text-align: center;
+}
+.reset-icon{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    border-radius: 999rem;
+    left: 57px;
+    top:57px;
+    text-align: center;
+}
+.reset-icon img{
+    vertical-align: middle;
+}
+.del{
+    padding-bottom: 20px;
+}
+.del a{
+    text-decoration: none;
+    
+}
+.footer{
+    width: 800px;
+    height: 80px;
+    background-color: #FFD366;
+    text-align: center;
+    padding-top: 20px;
+    margin: 0 auto;
+}
